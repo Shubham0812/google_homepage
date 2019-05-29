@@ -23,12 +23,16 @@ body{
 
 }
 
+.heading{
+    padding: 20px;
+}
+
 .heading img{
     height: 92px;
     width: 272px;
-    padding: 50px 0px;
     position: relative;
-    left: 50%;
+    margin-top: 175px;
+    left: 39.5%;
 }
 
 .profile{
@@ -38,11 +42,19 @@ body{
     width: 30px;
 }
 
-
+.search-bar{
+    width: 50%;
+    height: 50px;
+    left: 28%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 1px solid #666666;
+}
 
 .location{
     background: rgba(0, 0, 0, 0.54);
     padding: 6px;
+    
 }
 
 
