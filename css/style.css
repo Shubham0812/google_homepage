@@ -1,0 +1,48 @@
+/* *{
+    border: 1px solid red;
+} */
+
+body{
+    background: #ffffff;
+}
+
+.intro ul{
+    padding: 5px;
+    color: #010101;
+    float: right;
+    list-style-type: none;
+}
+
+.intro li{
+    display: inline;
+    padding: 0px 5px 0px 5px;
+    font-size: 15px;
+}
+
+.apps {
+
+}
+
+.heading img{
+    height: 92px;
+    width: 272px;
+    padding: 50px 0px;
+    position: relative;
+    left: 50%;
+}
+
+.profile{
+    border-radius: 100%;
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+.location{
+    background: rgba(0, 0, 0, 0.54);
+    padding: 6px;
+}
+
+
