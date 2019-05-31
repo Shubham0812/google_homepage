@@ -6,17 +6,24 @@ body{
     background: #ffffff;
 }
 
+.intro{
+margin-top: 10px;
+}
+
 .intro ul{
     padding: 5px;
     color: #010101;
     float: right;
     list-style-type: none;
+    margin-right: 20px;
 }
 
 .intro li{
     display: inline;
     padding: 0px 5px 0px 5px;
-    font-size: 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .apps {
@@ -25,30 +32,66 @@ body{
 
 .heading{
     padding: 20px;
+    text-align: center;
 }
 
 .heading img{
     height: 92px;
     width: 272px;
     position: relative;
-    margin-top: 175px;
-    left: 39.5%;
+    margin-top: 145px;
+    left: 7.5%;
 }
 
 .profile{
     border-radius: 100%;
     border: 1px solid black;
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
 }
 
 .search-bar{
-    width: 50%;
+    width: 45%;
     height: 50px;
-    left: 28%;
     box-sizing: border-box;
     border-radius: 25px;
     border: 1px solid #666666;
+    background-color: transparent;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    margin-top: 30px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.buttons button{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    cursor: pointer;
+    padding: 6px 13px;
+}
+
+
+.languages{
+font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.languages li{
+    display: inline;
+    padding: 0 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 
 .location{
