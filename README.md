@@ -12,9 +12,7 @@ The aim of the project is to replicate the google home page and the google resul
 
 ## Versions
 
-1. Build the Google.com homepage
-2. Build the Google.com search result page.
+1. Build the Google.com homepage (EASY Version)
+2. Build the Google.com search result page. (DIFFICULT Version)
 
-## Setup
-
-You Can view the page through the link given in the description.
+I have created both the versions and it will be available through the link given in the description.
