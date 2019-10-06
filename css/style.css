@@ -2,59 +2,195 @@
     border: 1px solid red;
 } */
 
-body{
-    background: #ffffff;
+body {
+  background: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-.intro ul{
-    padding: 5px;
-    color: #010101;
-    float: right;
-    list-style-type: none;
+.grid {
+  display: grid;
+  grid-template-rows: 40px 0.8fr 0.1fr;
 }
 
-.intro li{
-    display: inline;
-    padding: 0px 5px 0px 5px;
-    font-size: 15px;
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.apps {
-
+.intro > ul {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+  margin-top: 30px;
+  cursor: pointer;
 }
 
-.heading{
-    padding: 20px;
+.intro > ul > li {
+  padding: 8px;
+  text-decoration: none;
+  list-style: none;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 12px;
 }
 
-.heading img{
-    height: 92px;
-    width: 272px;
-    position: relative;
-    margin-top: 175px;
-    left: 39.5%;
+.heading {
+  padding: 20px;
+  text-align: center;
 }
 
-.profile{
-    border-radius: 100%;
-    border: 1px solid black;
-    height: 30px;
-    width: 30px;
+.heading > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.search-bar{
-    width: 50%;
-    height: 50px;
-    left: 28%;
-    box-sizing: border-box;
-    border-radius: 25px;
-    border: 1px solid #666666;
+.logo {
+  height: 92px;
+  width: 272px;
+  margin-top: 138px;
 }
 
-.location{
-    background: rgba(0, 0, 0, 0.54);
-    padding: 6px;
-    
+.profile {
+  border-radius: 100%;
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
 }
 
+.search-bar {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 552px;
+  height: 40px;
+  position: relative;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  outline: none;
+  padding: 4px 16px;
+  font-size: 16px;
+}
 
+.search-bar > input {
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0 16px;
+  outline: none;
+}
+
+.search-bar > i {
+  color: grey;
+}
+
+.search-bar:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.mic {
+  width: 24px;
+  height: 24px;
+}
+
+.buttons {
+  margin-top: 25px;
+  position: relative;
+  text-align: center;
+}
+
+.buttons button {
+  color: #5f6368;
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  cursor: pointer;
+  min-width: 58px;
+  text-align: center;
+  margin: 0px 4px;
+  padding: 9px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.buttons button:hover {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.languages > p {
+  padding: 0 6px;
+  color: blue;
+  font-size: 12px;
+}
+
+.languages > p:first-child {
+  color: tan;
+}
+
+.languages > p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.small {
+  font-size: 0.8rem;
+  padding-right: 8px;
+}
+
+.settings {
+  display: flex;
+  justify-content: space-between;
+  background: #f2f2f2;
+  padding-left: 32px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex > p {
+  padding: 12px;
+}
+
+.flex > p:first-child {
+  padding-left: 0px;
+}
+
+.flex:last-child {
+  margin-right: 16px;
+}
+
+.footer {
+  background: #f2f2f2;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  margin-top: 28px;
+}
+
+.location {
+  padding: 10px 0;
+  font-size: 15px;
+  display: block;
+  border: 0.5px solid rgba(0, 0, 0, 0.05);
+  padding-left: 32px;
+}
+
+.settings p {
+  margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+
+}

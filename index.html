@@ -1,35 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Google - Search Engine </title>
-        <link rel = "stylesheet" type = "text/css" href = "css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    </head>
-    <body>
-        <div class = "section intro">
-            <ul>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li><img class = "apps" src="1x/apps.png"></li>
-                <li><img class = "profile" src="1x/me.jpg" ></li>
-            </ul>
+  <head>
+    <title>Google - Search Engine</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="grid">
+      <div class="intro">
+        <ul>
+          <li>Gmail</li>
+          <li>Images</li>
+          <li><img class="apps" src="1x/apps.png" /></li>
+          <li>
+            <a href="result.html"><img class="profile" src="1x/me.jpg"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="heading">
+        <img src="1x/google_logo.png" class="logo" />
+        <form>
+          <div class="search-bar">
+            <i class="fa fa-search"></i>
+            <input type="text" />
+            <img class="mic" src="1x/microphone.png" />
+          </div>
+          <div class="buttons">
+            <a href="result.html"
+              ><button type="button">Google Search</button></a
+            >
+            <button type="button">I'm Feeling Lucky</button>
+          </div>
+        </form>
+        <div class="languages">
+          <span class="small">Google offered in:</span>
+          <p>हिन्दी</p>
+          <p>বাংলা</p>
+          <p>తెలుగు</p>
+          <p>मराठी</p>
+          <p>தமிழ்</p>
+          <p>ગુજરાતી</p>
+          <p>ಕನ್ನಡ</p>
+          <p>മലയാളം</p>
+          <p>ਪੰਜਾਬੀ</p>
         </div>
-        <br>
-        <div class = "heading" >   
-            <img src = "1x/google_logo.png">
-            <form>
-                <input class = "search-bar" type = "text">
-            </form>
+      </div>
+      <div class="footer">
+        <span class="location">India</span>
+        <div class="settings">
+          <div class="flex">
+            <p>Advertising</p>
+            <p>Business</p>
+            <p>About</p>
+            <p>How Search works</p>
+          </div>
+          <div class="flex">
+            <p>Privacy</p>
+            <p>Terms</p>
+            <p>Settings</p>
+          </div>
         </div>
-
-        <div class = "section location">
-            India
-        </div>
-
-        <div class = "section links">
-
-        </div>
-    </body>
-
+      </div>
+    </div>
+  </body>
 </html>
